@@ -49,7 +49,8 @@ class Solution(object):
             return (s[l//2]+s[l//2-1])/2.0000
         
 if __name__ == '__main__':
-    # begin
+    # call the class and log
     s = Solution()
     print(s.findMedianSortedArrays([1, 2], [3, 4]))
+    print(s.findMedianSortedArrays([1, 2], [3]))
     # runtime 1st code is 60ms and 2nd code is 15ms
